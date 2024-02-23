@@ -1,0 +1,32 @@
+.input{
+    padding: 10px 10px;
+    outline: none;
+}
+.currency{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(8px); /* Chrome and Opera */
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.08);
+            padding: 30px;
+    margin: 100px 300px;
+}
+.select{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+body{
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-position: center; */
+background-image: url('https://cdn4.vectorstock.com/i/1000x1000/18/23/stock-market-background-or-forex-trading-business-vector-38561823.jpg');
+
+}    
